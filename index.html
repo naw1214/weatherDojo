@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nate's Weather Dojo</title>
+</head>
+<body>
+    <div class="banner">
+        <h1>DojoWeather</h1>
+        <div class="ban-right">
+            <h2 onclick="alert('Loading weather report...')">Burbank</h2>
+            <h2 onclick="alert('Loading weather report...')">Chicago</h2>
+            <h2 onclick="alert('Loading weather report...')">Denver</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="headline">
+            <h2>San Jose</h2>
+            <div class="temperature">
+                <p>Show Temperature in</p>
+                <select name="temp" id="temp">
+                    <option value="Celcius" onclick="celcius()">°C</option>
+                    <option value="Farenheit" onclick="farenheit()">°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="content">
+            <div class="days">
+                <h2>Today</h2>
+                <img src="some_clouds.png" alt="cloudy image">
+                <h3>Cloudy</h3>
+                <div class="hi-low">
+                    <h3 class="high">24</h3>
+                    <h3 class="low">15</h3>
+                </div>
+            </div>
+            <div class="days">
+                <h2>Tomorrow</h2>
+                <img src="some_sun.png" alt="sunny image">
+                <h3>Sunny</h3>
+                <div class="hi-low">
+                    <h3 class="high">28°</h3>
+                    <h3 class="low">20°</h3>
+                </div>
+            </div>
+            <div class="days">
+                <h2>Friday</h2>
+                <img src="some_rain.png" alt="rainy image">
+                <h3>Rainy</h3>
+                <div class="hi-low">
+                    <h3 class="high">20°</h3>
+                    <h3 class="low">12°</h3>
+                </div>
+            </div>
+            <div class="days">
+                <h2>Saturday</h2>
+                <img src="some_sun.png" alt="cloudy image">
+                <h3>Sunny</h3>
+                <div class="hi-low">
+                    <h3 class="high">26°</h3>
+                    <h3 class="low">23°</h3>
+                </div>
+            </div>
+        </div>
+        <div class="cookies" id="cookies">
+                <img src="cookie.png" alt="cookies">
+                <div class="cookie-content">
+                    <h2>Stop! Cookie Time</h2> 
+                    <p>We use cookies to understand who you are as an individual and then use that greater understanding of you to market ads that we know you will click on and there fore make more money! <a href="#">Read More...</a></p>
+                </div>
+            <button class="accept-btn" onclick="accept()">Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightblue;
+    color: white;
+    height: 70px;
+}
+.ban-right{
+    display: flex;
+}
+.ban-right h2{
+    margin-right: 15px;
+}
+.container{
+    margin: auto;
+    width: 90vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    /* border: black solid; */
+}
+.headline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 2px;
+    padding: 10px;
+    margin-left: 15px;
+}
+.temperature{
+    display: flex;
+    margin: 0px 10px;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.days{
+    width: 20%;
+    height: 60vh;
+    border: black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 10px;
+    background-color: grey;
+}
+.hi-low{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.days img{
+    border-radius: 50%;
+}
+.high{
+    color: red;
+}
+.low{
+    color: blue;
+}
+.cookies{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: grey;
+    position: fixed;
+    width: 90%;
+}
+.accept-btn{
+    background-color: lightblue;
+    height: 40px;
+    width: 150px;
+    margin-right: 10px;
+}
