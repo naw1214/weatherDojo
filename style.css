@@ -55,6 +55,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
+}
+.high::after, .low::after{
+    content: "°";
 }
 .days img{
     border-radius: 50%;

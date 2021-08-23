@@ -21,9 +21,9 @@
             <h2>San Jose</h2>
             <div class="temperature">
                 <p>Show Temperature in</p>
-                <select name="temp" id="temp">
-                    <option value="Celcius" onclick="celcius()">°C</option>
-                    <option value="Farenheit" onclick="farenheit()">°F</option>
+                <select name="temp" id="temp" onchange="convert(this)">
+                    <option value="Celcius">°C</option>
+                    <option value="Farenheit">°F</option>
                 </select>
             </div>
         </div>
@@ -33,8 +33,8 @@
                 <img src="some_clouds.png" alt="cloudy image">
                 <h3>Cloudy</h3>
                 <div class="hi-low">
-                    <h3 class="high">24</h3>
-                    <h3 class="low">15</h3>
+                    <h3 class="high" id="temp1">24</h3>
+                    <h3 class="low" id="temp2">15</h3>
                 </div>
             </div>
             <div class="days">
@@ -42,8 +42,8 @@
                 <img src="some_sun.png" alt="sunny image">
                 <h3>Sunny</h3>
                 <div class="hi-low">
-                    <h3 class="high">28°</h3>
-                    <h3 class="low">20°</h3>
+                    <h3 class="high" id="temp3">28</h3>
+                    <h3 class="low" id="temp4">20</h3>
                 </div>
             </div>
             <div class="days">
@@ -51,8 +51,8 @@
                 <img src="some_rain.png" alt="rainy image">
                 <h3>Rainy</h3>
                 <div class="hi-low">
-                    <h3 class="high">20°</h3>
-                    <h3 class="low">12°</h3>
+                    <h3 class="high" id="temp5">20</h3>
+                    <h3 class="low" id="temp6">12</h3>
                 </div>
             </div>
             <div class="days">
@@ -60,8 +60,8 @@
                 <img src="some_sun.png" alt="cloudy image">
                 <h3>Sunny</h3>
                 <div class="hi-low">
-                    <h3 class="high">26°</h3>
-                    <h3 class="low">23°</h3>
+                    <h3 class="high" id="temp7">26</h3>
+                    <h3 class="low" id="temp8">23</h3>
                 </div>
             </div>
         </div>
